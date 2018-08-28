@@ -21,9 +21,14 @@
 * css second part
 */
 
+html {
+	height:100%;
+}
+
 
 body {
   padding-top: 50px
+  height:100%;
 }
 
 .slide-image {
@@ -67,5 +72,41 @@ body {
 }
 
 footer {
-  margin: 8px 0;
+  margin: 0;
+  width: 100%;
 }
+
+/*
+	about , contact
+*/
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.content {
+	padding-bottom: 60px;
+	
+}
+
+.footer {
+	position: absolute;
+	bottom: 15px;
+	height: 60px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
